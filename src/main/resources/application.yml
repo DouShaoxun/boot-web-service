@@ -1,0 +1,7 @@
+server:
+  port: 8085
+logging:
+  pattern:
+    console: "%red(%d{yyyy-MM-dd HH:mm:ss.SSS}) %green([%thread]) %highlight(%-5level) %boldMagenta(%logger{10}.%M [%line]) - %cyan(%msg%n)"
+  level:
+    org.springframework: info
